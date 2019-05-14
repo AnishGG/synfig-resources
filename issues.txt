@@ -1,0 +1,29 @@
+layer z_depth if changed manually doesn't work then
+
+https://github.com/synfig/synfig/commit/b7d65c142a20381da3396fffb42e1440a218e576
+
+TANGENT_FACTOR optimal: https://github.com/synfig/synfig/blob/master/ETL/ETL/_hermite.h
+TANGENT_IN_FACTOR gives better results at constant value of 3.5
+TANGENT_OUT_FACTOR gives better results at constant value of 2.9
+
+Next GSOC Mentor Idea: 
+-> Convert lottie(.json) format to .sif format
+-> implement the convert methods present in animation in synfig
+-> Generate color for each frame in case of bezier interpolation
+-> Might be helpful at the end of GSOC: https://github.com/airbnb/lottie-web/issues/1614
+
+TODOS:
+Change opacity documentation in developer documentation
+Documentation: Only linear interpolation are allowed for color in after effects
+
+Inner Radius - Polygon interpolation problem:
+-> perpendicular distance in polygon = or*Cos(theta/2)
+    -> Finding this will depend upon the number of points
+    -> If number of points is chaning somewhere in the animation, then more waypoints need to be introduced
+    -> For simplicity, assume that number of points is not changing yet
+        -> After this deal with difficult problem of `changing number of points of star`
+-> Never consider it as a polygon, always make inner radius equal to the above given value
+    -> To do this, will have to implement the tcb value finder in python
+    -> To find subsection of bezier: https://math.stackexchange.com/questions/317806/equation-for-subsection-of-bezier-curve
+    -> Waypoint not always starts from zero, so take the value from it's first waypoint
+    -> Inner radius needs to be changed as many times as needed according to the outer radius
