@@ -12,6 +12,7 @@
   <meta name="guide_color" content="0.435294 0.435294 1.000000"/>
   <meta name="guide_show" content="1"/>
   <meta name="guide_snap" content="0"/>
+  <meta name="guide_x" content="0.000000 0.000000"/>
   <meta name="jack_offset" content="0.000000"/>
   <meta name="onion_skin" content="0"/>
   <meta name="onion_skin_future" content="0"/>
@@ -19,7 +20,14 @@
   <keyframe time="0f" active="true"/>
   <layer type="star" active="true" exclude_from_rendering="false" version="0.1">
     <param name="z_depth">
-      <real value="0.0000000000"/>
+      <animated type="real">
+        <waypoint time="0s" before="clamped" after="clamped">
+          <real guid="7B0EE5AC12A6AE5602A1926B44B47784" value="1.0000000000"/>
+        </waypoint>
+        <waypoint time="1s" before="clamped" after="clamped">
+          <real guid="09418D764F5C7B3E8325D6B63C8D32A4" value="0.0000000000"/>
+        </waypoint>
+      </animated>
     </param>
     <param name="amount">
       <real value="1.0000000000"/>
@@ -30,7 +38,7 @@
     <param name="color">
       <animated type="color">
         <waypoint time="0s" before="clamped" after="constant">
-          <color guid="A37DD6702D60832296D9B90A923FA434">
+          <color>
             <r>1.000000</r>
             <g>0.000000</g>
             <b>0.716333</b>
@@ -38,7 +46,7 @@
           </color>
         </waypoint>
         <waypoint time="1s" before="clamped" after="clamped">
-          <color guid="DF65EAA8ADC8E2F3FA7E97EBA92F0727">
+          <color>
             <r>1.000000</r>
             <g>0.000000</g>
             <b>0.015959</b>
@@ -54,7 +62,7 @@
           </color>
         </waypoint>
         <waypoint time="3s" before="constant" after="clamped">
-          <color guid="822CE6BABA2F455A447EE7B6672974FC">
+          <color>
             <r>0.000000</r>
             <g>0.000000</g>
             <b>1.000000</b>

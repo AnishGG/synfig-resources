@@ -59,13 +59,13 @@
     <param name="radius1">
       <animated type="real">
         <waypoint time="0s" before="clamped" after="clamped">
-          <real guid="4A8ADF40B63DE0A5B3F3511C53C01402" value="2.2112698873"/>
+          <real value="2.2112698873"/>
         </waypoint>
         <waypoint time="0.5s" before="clamped" after="clamped">
-          <real guid="ED71ADBF2D515C329F0006F578934533" value="1.0000000000"/>
+          <real value="1.0000000000"/>
         </waypoint>
         <waypoint time="1.75s" before="clamped" after="clamped">
-          <real guid="6C922848C8DE580390ABAD6BB218ACB3" value="3.3333333333"/>
+          <real value="3.3333333333"/>
         </waypoint>
       </animated>
     </param>
@@ -91,13 +91,19 @@
     <param name="regular_polygon">
       <animated type="bool">
         <waypoint time="0s" before="clamped" after="clamped">
-          <bool value="false"/>
+          <bool guid="7751AC23AD794E2549672A55175DE7BE" value="false"/>
         </waypoint>
-        <waypoint time="0.20833333s" before="clamped" after="clamped">
-          <bool value="true"/>
+        <waypoint time="0.04166667s" before="clamped" after="clamped">
+          <bool guid="0A944FED0E08096174BBE51A69E4D31F" value="true"/>
         </waypoint>
         <waypoint time="1s" before="clamped" after="clamped">
           <bool value="false"/>
+        </waypoint>
+        <waypoint time="1.54166663s" before="clamped" after="clamped">
+          <bool guid="D8AAD38143F07A285002A782C13138C7" value="false"/>
+        </waypoint>
+        <waypoint time="2.04166675s" before="clamped" after="clamped">
+          <bool guid="7FB0AC8C9ECE990CC15233D5678DE0E7" value="true"/>
         </waypoint>
       </animated>
     </param>
