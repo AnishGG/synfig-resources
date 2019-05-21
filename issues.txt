@@ -15,6 +15,7 @@ Next GSOC Mentor Idea:
 TODOS:
 Change opacity documentation in developer documentation
 Documentation: Only linear interpolation are allowed for color in after effects
+Documentation: Only circular bevel is supported for rectangle layer
 
 Inner Radius - Polygon interpolation problem:
 -> perpendicular distance in polygon = or*Cos(theta/2)
@@ -27,3 +28,14 @@ Inner Radius - Polygon interpolation problem:
     -> To find subsection of bezier: https://math.stackexchange.com/questions/317806/equation-for-subsection-of-bezier-curve
     -> Waypoint not always starts from zero, so take the value from it's first waypoint
     -> Inner radius needs to be changed as many times as needed according to the outer radius
+
+    False -> True (all area in between is covered) [Only the starting frame remains false]
+    True -> False (all area again is covered) [Only the ending frame remains false]
+    False -> False (all area in between remains false)
+    True -> True (all area in between remains false)
+
+    Hence our favourable area will be:
+    example: false false false true true true true true false false
+                         ------------------------------------
+    All the dashed part should be considered as polygon
+    -> All neighbouring false's and true's will be collapsed into a single entity, and they will be operated on
