@@ -17,6 +17,7 @@ TODOS:
 Documentation: https://www.tablesgenerator.com/text_tables
 Documentation: Only circular bevel is supported for rectangle layer
 Future task: the synfig factor is /3, but the lottie factor(corrected) might be /6: This is worth giving a try, as this can be checked by setting both the linear interpolation
+Logger and Logging information to know which layer we can't parse
 
 Inner Radius - Polygon interpolation problem:
 -> perpendicular distance in polygon = or*Cos(theta/2)
