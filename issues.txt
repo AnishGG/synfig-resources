@@ -14,12 +14,15 @@ Next GSOC Mentor Idea:
 -> Might be helpful at the end of GSOC: https://github.com/airbnb/lottie-web/issues/1614
 
 TODOS:
+Function documentation: https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
 Documentation: https://www.tablesgenerator.com/text_tables
 Documentation: Only circular bevel is supported for rectangle layer
 Logger and Logging information to know which layer we can't parse
 Calculation of position(x, y) between two points when interpolation is ease in/out is to be learnt
-Put absolute path in python script
 TCB values for inserted waypoints need to be determined: Improvement:- For now average of tcb is taken
+expand rectangle: put waypoints at positional and expand places
+Inside the code: make all the expand parameters absolute
+Expand parameter's code need to be dealt before generating new c_anim_1, and c_anim_2
 
 
 Inner Radius - Polygon interpolation problem:
