@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<canvas version="1.0" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="45.000" begin-time="0f" end-time="5s" bgcolor="0.500000 0.500000 0.500000 1.000000">
+<canvas version="1.0" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="5s" bgcolor="0.500000 0.500000 0.500000 1.000000">
   <name>Synfig Animation 1</name>
   <meta name="background_first_color" content="0.880000 0.880000 0.880000"/>
   <meta name="background_rendering" content="1"/>
@@ -37,55 +37,28 @@
     </param>
     <param name="point1">
       <animated type="vector">
-        <waypoint time="2.33333325s" before="clamped" after="clamped">
+        <waypoint time="0s" before="clamped" after="clamped">
           <vector>
-            <x>-0.3833333254</x>
-            <y>-0.5333333611</y>
+            <x>0.0000000000</x>
+            <y>0.0000000000</y>
           </vector>
         </waypoint>
       </animated>
     </param>
     <param name="point2">
       <animated type="vector">
-        <waypoint time="0s" before="auto" after="auto">
+        <waypoint time="0s" before="clamped" after="clamped">
           <vector>
-            <x>-2.8993041515</x>
-            <y>1.7850346565</y>
-          </vector>
-        </waypoint>
-        <waypoint time="0.95833331s" before="clamped" after="clamped">
-          <vector>
-            <x>-2.5348174572</x>
-            <y>-1.5444813967</y>
-          </vector>
-        </waypoint>
-        <waypoint time="2.33333325s" before="auto" after="auto">
-          <vector>
-            <x>1.7706450224</x>
-            <y>-2.1500570774</y>
-          </vector>
-        </waypoint>
-        <waypoint time="3.29166675s" before="clamped" after="clamped">
-          <vector>
-            <x>-3.9738738537</x>
-            <y>2.2446377277</y>
+            <x>6.3294739723</x>
+            <y>1.9496734142</y>
           </vector>
         </waypoint>
       </animated>
     </param>
     <param name="expand">
-      <animated type="real">
-        <waypoint time="0s" before="clamped" after="clamped">
-          <real guid="B2ABA983D05133ABCDF08526DCE5E46F" value="0.0333333333"/>
-        </waypoint>
-        <waypoint time="0.70833331s" before="clamped" after="clamped">
-          <real guid="D8F9192B144263C2F6DB7C0CC68DFE55" value="0.1000000000"/>
-        </waypoint>
-        <waypoint time="1.70833337s" before="clamped" after="clamped">
-          <real guid="ECAEFB969F858E7631670F19D60C6C4E" value="0.1666666667"/>
-        </waypoint>
-        <waypoint time="2.54166675s" before="clamped" after="clamped">
-          <real guid="BB7274D1BDE12E013FFB460F42A368F6" value="0.2000000000"/>
+      <animated guid="5665C9BD4170806E25FA55BED86825FF" type="real">
+        <waypoint time="2s" before="clamped" after="clamped">
+          <real guid="E9BCCA5F470ECB169317B88830BEE1EB" value="0.3333333333"/>
         </waypoint>
       </animated>
     </param>
