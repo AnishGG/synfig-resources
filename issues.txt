@@ -15,7 +15,6 @@ TODOS:
 Function documentation: https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
 Documentation: https://www.tablesgenerator.com/text_tables
 Logger and Logging information to know which layer we can't parse
-Calculation of position(x, y) between two points when interpolation is ease in/out is to be learnt
 TCB values for inserted waypoints need to be determined: Improvement:- For now average of tcb is taken
 Inside the code: make all the expand parameters absolute
 
