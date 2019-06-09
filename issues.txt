@@ -17,6 +17,8 @@ Documentation: https://www.tablesgenerator.com/text_tables
 Logger and Logging information to know which layer we can't parse
 TCB values for inserted waypoints need to be determined: Improvement:- For now average of tcb is taken
 Inside the code: make all the expand parameters absolute
+[Later, Not a need now]Make a wrapper for finding vector at time t for waypoint such that, if not animated: make it animated inside that first function itselves
+Introduce frame window for rectangle layer
 
 
 Inner Radius - Polygon interpolation problem:
