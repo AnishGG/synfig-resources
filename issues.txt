@@ -16,9 +16,9 @@ Function documentation: https://sphinxcontrib-napoleon.readthedocs.io/en/latest/
 Documentation: https://www.tablesgenerator.com/text_tables
 Logger and Logging information to know which layer we can't parse
 TCB values for inserted waypoints need to be determined: Improvement:- For now average of tcb is taken
-Inside the code: make all the expand parameters absolute
 [Later, Not a need now]Make a wrapper for finding vector at time t for waypoint such that, if not animated: make it animated inside that first function itselves
 Introduce frame window for rectangle layer
+Restructure rectangle layer
 
 
 Inner Radius - Polygon interpolation problem:
@@ -36,7 +36,7 @@ Inner Radius - Polygon interpolation problem:
     False -> True (all area in between is covered) [Only the starting frame remains false]
     True -> False (all area again is covered) [Only the ending frame remains false]
     False -> False (all area in between remains false)
-    True -> True (all area in between remains false)
+    True -> True (all area in between remains true)
 
     Hence our favourable area will be:
     example: false false false true true true true true false false

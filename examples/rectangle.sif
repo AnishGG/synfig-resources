@@ -76,16 +76,19 @@
     <param name="expand">
       <animated type="real">
         <waypoint time="0s" before="clamped" after="clamped">
-          <real guid="B2ABA983D05133ABCDF08526DCE5E46F" value="0.0333333333"/>
+          <real value="0.0333333333"/>
         </waypoint>
         <waypoint time="0.70833331s" before="clamped" after="clamped">
-          <real guid="D8F9192B144263C2F6DB7C0CC68DFE55" value="0.1000000000"/>
+          <real value="0.1000000000"/>
         </waypoint>
         <waypoint time="1.70833337s" before="clamped" after="clamped">
-          <real guid="ECAEFB969F858E7631670F19D60C6C4E" value="0.1666666667"/>
+          <real value="0.1666666667"/>
+        </waypoint>
+        <waypoint time="1.71111107s" before="clamped" after="clamped">
+          <real guid="3D775B109B9FDC3B411CF180A30F4610" value="-0.1666666667"/>
         </waypoint>
         <waypoint time="2.54166675s" before="clamped" after="clamped">
-          <real guid="BB7274D1BDE12E013FFB460F42A368F6" value="0.2000000000"/>
+          <real value="0.2000000000"/>
         </waypoint>
       </animated>
     </param>
