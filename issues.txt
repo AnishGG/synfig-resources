@@ -4,6 +4,8 @@ https://github.com/synfig/synfig/commit/b7d65c142a20381da3396fffb42e1440a218e576
 
 TANGENT_FACTOR optimal: https://github.com/synfig/synfig/blob/master/ETL/ETL/_hermite.h
 LOttie calculates bezier as: https://github.com/airbnb/lottie-web/blob/master/player/js/utils/PropertyFactory.js
+https://lottiefiles.com/user/67632
+Use Repeater of Adobe after effects in Duplicate layer of Synfig
 
 Next GSOC Mentor Idea: 
 -> Convert lottie(.json) format to .sif format

@@ -81,11 +81,8 @@
         <waypoint time="0.70833331s" before="clamped" after="clamped">
           <real value="0.1000000000"/>
         </waypoint>
-        <waypoint time="1.70833337s" before="clamped" after="clamped">
-          <real value="0.1666666667"/>
-        </waypoint>
         <waypoint time="1.71111107s" before="clamped" after="clamped">
-          <real guid="3D775B109B9FDC3B411CF180A30F4610" value="-0.1666666667"/>
+          <real value="-0.1666666667"/>
         </waypoint>
         <waypoint time="2.54166675s" before="clamped" after="clamped">
           <real value="0.2000000000"/>
