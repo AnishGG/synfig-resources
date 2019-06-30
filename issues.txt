@@ -18,7 +18,6 @@ Function documentation: https://sphinxcontrib-napoleon.readthedocs.io/en/latest/
 Documentation: https://www.tablesgenerator.com/text_tables
 TCB values for inserted waypoints need to be determined: Improvement:- For now average of tcb is taken
 [Later, Not a need now]Make a wrapper for finding vector at time t for waypoint such that, if not animated: make it animated inside that first function itselves
-Define operator [] on class misc.Vector : https://stackoverflow.com/questions/1957780/how-to-override-the-operator-in-python
 Invert parameter not working properly for overlapping `region` layers
 
 
