@@ -57,7 +57,7 @@
       <integer value="0"/>
     </param>
     <param name="bline">
-      <bline type="bline_point" loop="false">
+      <bline type="bline_point" loop="true">
         <entry>
           <composite type="bline_point">
             <point>
@@ -78,20 +78,20 @@
             <t1>
               <radial_composite type="vector">
                 <radius>
-                  <real value="1.1150267283"/>
+                  <real value="6.5177453520"/>
                 </radius>
                 <theta>
-                  <angle value="-90.000000"/>
+                  <angle value="-167.858780"/>
                 </theta>
               </radial_composite>
             </t1>
             <t2>
               <radial_composite type="vector">
                 <radius>
-                  <real value="2.7678265889"/>
+                  <real value="3.5440360676"/>
                 </radius>
                 <theta>
-                  <angle value="-90.000000"/>
+                  <angle value="-193.293716"/>
                 </theta>
               </radial_composite>
             </t2>
@@ -161,16 +161,13 @@
         <waypoint time="0s" before="clamped" after="clamped">
           <bool value="false"/>
         </waypoint>
-        <waypoint time="1s" before="clamped" after="clamped">
-          <bool value="true"/>
-        </waypoint>
       </animated>
     </param>
     <param name="round_tip[0]">
-      <bool value="true"/>
+      <bool value="false"/>
     </param>
     <param name="round_tip[1]">
-      <bool value="true"/>
+      <bool value="false"/>
     </param>
     <param name="loopyness">
       <real value="1.0000000000"/>
