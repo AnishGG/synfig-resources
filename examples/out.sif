@@ -16,7 +16,6 @@
   <meta name="onion_skin" content="0"/>
   <meta name="onion_skin_future" content="0"/>
   <meta name="onion_skin_past" content="1"/>
-  <keyframe time="0f" active="true"/>
   <layer type="outline" active="true" exclude_from_rendering="false" version="0.2">
     <param name="z_depth">
       <real value="0.0000000000"/>

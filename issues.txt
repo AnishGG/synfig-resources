@@ -20,7 +20,6 @@ TCB values for inserted waypoints need to be determined: Improvement:- For now a
 [Later, Not a need now]Make a wrapper for finding vector at time t for waypoint such that, if not animated: make it animated inside that first function itselves
 Invert parameter not working properly for overlapping `region` layers
 Rotate Layer: calculate net rotation for each layer and put it on there transformations
-There should be a difference b/w not rendering and not active
 
 
 Inner Radius - Polygon interpolation problem:
