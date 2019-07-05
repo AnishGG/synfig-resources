@@ -19,7 +19,6 @@ Documentation: https://www.tablesgenerator.com/text_tables
 TCB values for inserted waypoints need to be determined: Improvement:- For now average of tcb is taken
 [Later, Not a need now]Make a wrapper for finding vector at time t for waypoint such that, if not animated: make it animated inside that first function itselves
 Invert parameter not working properly for overlapping `region` layers
-Rotate Layer: calculate net rotation for each layer and put it on there transformations
 
 
 Inner Radius - Polygon interpolation problem:
