@@ -1,5 +1,3 @@
-layer z_depth if changed manually doesn't work then
-
 https://github.com/synfig/synfig/commit/b7d65c142a20381da3396fffb42e1440a218e576
 
 TANGENT_FACTOR optimal: https://github.com/synfig/synfig/blob/master/ETL/ETL/_hermite.h
@@ -20,7 +18,7 @@ TCB values for inserted waypoints need to be determined: Improvement:- For now a
 [Later, Not a need now]Make a wrapper for finding vector at time t for waypoint such that, if not animated: make it animated inside that first function itselves
 Invert parameter not working properly for overlapping `region` layers
 Invert parameter does not work with rotate layer
-
+[Later] Make class layer
 
 Inner Radius - Polygon interpolation problem:
 -> perpendicular distance in polygon = or*Cos(theta/2)
