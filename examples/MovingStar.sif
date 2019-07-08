@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<canvas version="1.0" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="4s 4f" bgcolor="0.500000 0.500000 0.500000 1.000000">
+<canvas version="1.0" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="4s 5f" bgcolor="0.500000 0.500000 0.500000 1.000000">
   <name>Synfig Animation 1</name>
   <meta name="background_first_color" content="0.880000 0.880000 0.880000"/>
   <meta name="background_rendering" content="1"/>
@@ -22,10 +22,10 @@
     <param name="z_depth">
       <animated type="real">
         <waypoint time="0s" before="clamped" after="clamped">
-          <real guid="7B0EE5AC12A6AE5602A1926B44B47784" value="1.0000000000"/>
+          <real value="1.0000000000"/>
         </waypoint>
         <waypoint time="1s" before="clamped" after="clamped">
-          <real guid="09418D764F5C7B3E8325D6B63C8D32A4" value="0.0000000000"/>
+          <real value="0.0000000000"/>
         </waypoint>
       </animated>
     </param>
@@ -100,7 +100,7 @@
       </animated>
     </param>
     <param name="invert">
-      <bool value="false"/>
+      <bool guid="3BC90BB600EE975F2D82F1A531FACF8D" value="true"/>
     </param>
     <param name="antialias">
       <bool value="true"/>
@@ -166,7 +166,23 @@
       <integer value="5"/>
     </param>
     <param name="regular_polygon">
-      <bool value="false"/>
+      <animated guid="02CA919B04543146DA66F20DE4D1ED38" type="bool">
+        <waypoint time="0s" before="clamped" after="clamped">
+          <bool guid="19CEB1870E551F74DAAF2340B10FCB98" value="false"/>
+        </waypoint>
+        <waypoint time="0.875s" before="clamped" after="clamped">
+          <bool guid="4D6C47123D9623E89ACB2F7660512F79" value="true"/>
+        </waypoint>
+        <waypoint time="1.33333337s" before="clamped" after="clamped">
+          <bool guid="42D9DBBF31E28D9FACF7603E82313D89" value="false"/>
+        </waypoint>
+        <waypoint time="1.95833337s" before="clamped" after="clamped">
+          <bool guid="7498A2289BAEB895B685CD92ED43E66C" value="false"/>
+        </waypoint>
+        <waypoint time="2.95833325s" before="clamped" after="clamped">
+          <bool guid="2A6637F783CAE81191C4D7C7AE8051A2" value="false"/>
+        </waypoint>
+      </animated>
     </param>
   </layer>
 </canvas>
