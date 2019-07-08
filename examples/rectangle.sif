@@ -90,7 +90,7 @@
       </animated>
     </param>
     <param name="invert">
-      <bool value="false"/>
+      <bool value="true"/>
     </param>
     <param name="feather_x">
       <real value="0.0000000000"/>
@@ -99,10 +99,10 @@
       <real value="0.0000000000"/>
     </param>
     <param name="bevel">
-      <real value="0.0000000000"/>
+      <real value="0.3333333333"/>
     </param>
     <param name="bevCircle">
-      <bool value="true"/>
+      <bool value="false"/>
     </param>
   </layer>
 </canvas>

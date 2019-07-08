@@ -15,6 +15,7 @@ TODOS:
 Function documentation: https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
 Documentation: https://www.tablesgenerator.com/text_tables
 TCB values for inserted waypoints need to be determined: Improvement:- For now average of tcb is taken
+    -> To find subsection of bezier: https://math.stackexchange.com/questions/317806/equation-for-subsection-of-bezier-curve
 [Later, Not a need now]Make a wrapper for finding vector at time t for waypoint such that, if not animated: make it animated inside that first function itselves
 [Later] Make class layer
 
@@ -26,7 +27,6 @@ Inner Radius - Polygon interpolation problem:
         -> After this deal with difficult problem of `changing number of points of star`
 -> Never consider it as a polygon, always make inner radius equal to the above given value
     -> To do this, will have to implement the tcb value finder in python
-    -> To find subsection of bezier: https://math.stackexchange.com/questions/317806/equation-for-subsection-of-bezier-curve
     -> Waypoint not always starts from zero, so take the value from it's first waypoint
     -> Inner radius needs to be changed as many times as needed according to the outer radius
 
