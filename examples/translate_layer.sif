@@ -76,13 +76,13 @@
     <param name="origin">
       <animated type="vector">
         <waypoint time="0s" before="clamped" after="clamped">
-          <vector guid="D64B6222A49396AE5DBEFD865F85FF1A">
+          <vector>
             <x>2.9272093773</x>
             <y>-0.0135543821</y>
           </vector>
         </waypoint>
         <waypoint time="1s" before="clamped" after="clamped">
-          <vector guid="12A47577CEEEDA559989078F66017D9D">
+          <vector>
             <x>-1.3018574715</x>
             <y>-0.1571543366</y>
           </vector>
@@ -100,10 +100,34 @@
     <param name="amount">
       <animated type="angle">
         <waypoint time="0s" before="clamped" after="clamped">
-          <angle guid="89F12E770D13577F4D79FB7BC99250FF" value="0.000000"/>
+          <angle value="0.000000"/>
         </waypoint>
         <waypoint time="1s" before="clamped" after="clamped">
-          <angle guid="285CD3078F52880EDD7980E171A4BD60" value="-42.152981"/>
+          <angle value="-42.152981"/>
+        </waypoint>
+      </animated>
+    </param>
+  </layer>
+  <layer type="translate" active="true" exclude_from_rendering="false" version="0.1">
+    <param name="origin">
+      <animated type="vector">
+        <waypoint time="0s" before="clamped" after="clamped">
+          <vector guid="E64132CB403D874E5851A63818E11FF6">
+            <x>0.1987183094</x>
+            <y>1.2291997671</y>
+          </vector>
+        </waypoint>
+        <waypoint time="1s" before="clamped" after="clamped">
+          <vector guid="AAF504ECF62E3ADBCE3F1D68271452DF">
+            <x>-1.6146738529</x>
+            <y>-0.7605463862</y>
+          </vector>
+        </waypoint>
+        <waypoint time="1.5s" before="clamped" after="clamped">
+          <vector guid="55176327B0081CB5E62701CCD8946BFA">
+            <x>-2.4462099075</x>
+            <y>-1.7550648451</y>
+          </vector>
         </waypoint>
       </animated>
     </param>

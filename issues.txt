@@ -16,8 +16,6 @@ Function documentation: https://sphinxcontrib-napoleon.readthedocs.io/en/latest/
 Documentation: https://www.tablesgenerator.com/text_tables
 TCB values for inserted waypoints need to be determined: Improvement:- For now average of tcb is taken
 [Later, Not a need now]Make a wrapper for finding vector at time t for waypoint such that, if not animated: make it animated inside that first function itselves
-Invert parameter not working properly for overlapping `region` layers
-Invert parameter does not work with rotate layer
 [Later] Make class layer
 
 Inner Radius - Polygon interpolation problem:
