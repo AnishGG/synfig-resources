@@ -769,7 +769,7 @@
       <bool value="true"/>
     </param>
   </layer>
-  <layer type="text" active="true" exclude_from_rendering="false" version="0.2" desc="4 yellow">
+  <layer type="text" active="false" exclude_from_rendering="false" version="0.2" desc="4 yellow">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
@@ -837,7 +837,7 @@
       <bool value="false"/>
     </param>
   </layer>
-  <layer type="text" active="true" exclude_from_rendering="false" version="0.2" desc="4 red">
+  <layer type="text" active="false" exclude_from_rendering="false" version="0.2" desc="4 red">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
@@ -905,7 +905,7 @@
       <bool value="false"/>
     </param>
   </layer>
-  <layer type="text" active="true" exclude_from_rendering="false" version="0.2" desc="waypoint 4">
+  <layer type="text" active="false" exclude_from_rendering="false" version="0.2" desc="waypoint 4">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
@@ -1007,7 +1007,7 @@ Temporal Tension: </string>
       <bool value="false"/>
     </param>
   </layer>
-  <layer type="text" active="true" exclude_from_rendering="false" version="0.2" desc="3 yellow">
+  <layer type="text" active="false" exclude_from_rendering="false" version="0.2" desc="3 yellow">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
@@ -1075,7 +1075,7 @@ Temporal Tension: </string>
       <bool value="false"/>
     </param>
   </layer>
-  <layer type="text" active="true" exclude_from_rendering="false" version="0.2" desc="3 red">
+  <layer type="text" active="false" exclude_from_rendering="false" version="0.2" desc="3 red">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
@@ -1143,7 +1143,7 @@ Temporal Tension: </string>
       <bool value="false"/>
     </param>
   </layer>
-  <layer type="text" active="true" exclude_from_rendering="false" version="0.2" desc="waypoint 3">
+  <layer type="text" active="false" exclude_from_rendering="false" version="0.2" desc="waypoint 3">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
@@ -1253,7 +1253,7 @@ Temporal Tension: </string>
       <bool value="false"/>
     </param>
   </layer>
-  <layer type="text" active="true" exclude_from_rendering="false" version="0.2" desc="2 yellow">
+  <layer type="text" active="false" exclude_from_rendering="false" version="0.2" desc="2 yellow">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
@@ -1321,7 +1321,7 @@ Temporal Tension: </string>
       <bool value="false"/>
     </param>
   </layer>
-  <layer type="text" active="true" exclude_from_rendering="false" version="0.2" desc="2 red">
+  <layer type="text" active="false" exclude_from_rendering="false" version="0.2" desc="2 red">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
@@ -1389,7 +1389,7 @@ Temporal Tension: </string>
       <bool value="false"/>
     </param>
   </layer>
-  <layer type="text" active="true" exclude_from_rendering="false" version="0.2" desc="waypoint 2">
+  <layer type="text" active="false" exclude_from_rendering="false" version="0.2" desc="waypoint 2">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
@@ -1491,7 +1491,7 @@ Temporal Tension: </string>
       <bool value="false"/>
     </param>
   </layer>
-  <layer type="text" active="true" exclude_from_rendering="false" version="0.2" desc="1 yellow">
+  <layer type="text" active="false" exclude_from_rendering="false" version="0.2" desc="1 yellow">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
@@ -1559,7 +1559,7 @@ Temporal Tension: </string>
       <bool value="false"/>
     </param>
   </layer>
-  <layer type="text" active="true" exclude_from_rendering="false" version="0.2" desc="1 red">
+  <layer type="text" active="false" exclude_from_rendering="false" version="0.2" desc="1 red">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
@@ -1627,7 +1627,7 @@ Temporal Tension: </string>
       <bool value="false"/>
     </param>
   </layer>
-  <layer type="text" active="true" exclude_from_rendering="false" version="0.2" desc="waypoint 1">
+  <layer type="text" active="false" exclude_from_rendering="false" version="0.2" desc="waypoint 1">
     <param name="z_depth">
       <real value="0.0000000000"/>
     </param>
@@ -1813,7 +1813,7 @@ Temporal Tension: </string>
                 </vector>
               </waypoint>
               <waypoint time="1s" before="auto" after="auto" tension="-1.000000" bias="-0.500000">
-                <vector guid="D128ADBC31E27584448839FB5406AA1A">
+                <vector>
                   <x>7.5000000000</x>
                   <y>4.0000000000</y>
                 </vector>
