@@ -76,7 +76,7 @@
       </composite>
     </param>
     <param name="canvas">
-      <canvas>
+      <canvas begin-time="1s" end-time="2s">
         <layer type="group" active="true" exclude_from_rendering="false" version="0.2">
           <param name="z_depth">
             <real value="0.0000000000"/>
