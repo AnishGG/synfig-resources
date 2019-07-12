@@ -5,7 +5,9 @@ if [ $# -eq 0 ]
         directory="../examples";
         program="lottie-exporter.py"
     else
+        DIRECTORY=`pwd`
         directory=$2
+        directory="$DIRECTORY/$directory"
         program=$1
 fi
 full_path="$directory/*.sif"

@@ -11,6 +11,7 @@ Next GSOC Mentor Idea:
 -> Generate color for each frame in case of bezier interpolation
 -> Might be helpful at the end of GSOC: https://github.com/airbnb/lottie-web/issues/1614
 -> Fork lottie-web, support your animations by editing the structure [will reduce the file size hugely]
+-> Support layers like pasteCanvas which were present in previous versions
 
 TODOS:
 Function documentation: https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html

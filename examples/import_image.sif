@@ -22,7 +22,14 @@
       <real value="0.0000000000"/>
     </param>
     <param name="amount">
-      <real value="1.0000000000"/>
+      <animated type="real">
+        <waypoint time="0s" before="clamped" after="clamped">
+          <real guid="8C4FB9AA4271D2D402324901F76631E5" value="0.5000000000"/>
+        </waypoint>
+        <waypoint time="1.19000006s" before="clamped" after="clamped">
+          <real guid="2F0900796EA442210EBD4CEB28315F78" value="1.0000000000"/>
+        </waypoint>
+      </animated>
     </param>
     <param name="blend_method">
       <integer value="0" static="true"/>
@@ -46,13 +53,13 @@
     <param name="br">
       <animated type="vector">
         <waypoint time="0s" before="clamped" after="clamped">
-          <vector guid="F00D3510EC11E14971D802219BEFE845">
+          <vector>
             <x>2.0329253674</x>
             <y>-1.2613886595</y>
           </vector>
         </waypoint>
         <waypoint time="1.65999997s" before="clamped" after="clamped">
-          <vector guid="E297C4601E12824004BE650EF1F2E362">
+          <vector>
             <x>-3.5184507370</x>
             <y>1.9372843504</y>
           </vector>
@@ -66,10 +73,10 @@
       <real value="1.0000000000"/>
     </param>
     <param name="filename">
-        <string>../../Downloads/google.jpg</string>
+      <string>../../Downloads/google.jpg</string>
     </param>
     <param name="time_offset">
-      <time guid="EBBE0EF369F7CDA6BBAA871080978C0F" value="0s"/>
+      <time guid="CAE848E4EF94E7DA91139F7633E41628" value="0s"/>
     </param>
   </layer>
 </canvas>
