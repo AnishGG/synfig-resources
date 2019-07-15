@@ -51,6 +51,12 @@
                 <y>0.0000000000</y>
               </vector>
             </waypoint>
+            <waypoint time="2.08333325s" before="clamped" after="clamped">
+              <vector guid="915D9B048C74B24975068FFBF4B6BC9B">
+                <x>1.6666666269</x>
+                <y>0.0000000000</y>
+              </vector>
+            </waypoint>
           </animated>
         </offset>
         <angle>
@@ -64,19 +70,15 @@
           <angle value="0.000000"/>
         </skew_angle>
         <scale>
-          <animated type="vector">
-            <waypoint time="0s" before="clamped" after="clamped">
-              <vector>
-                <x>1.6666666269</x>
-                <y>0.8333333135</y>
-              </vector>
-            </waypoint>
-          </animated>
+          <vector guid="1FD525DAF2E993950CD6468472C5FA3D">
+            <x>1.6666666269</x>
+            <y>0.8333333135</y>
+          </vector>
         </scale>
       </composite>
     </param>
     <param name="canvas">
-      <canvas begin-time="1s" end-time="2s">
+      <canvas>
         <layer type="group" active="true" exclude_from_rendering="false" version="0.2">
           <param name="z_depth">
             <real value="0.0000000000"/>
@@ -401,7 +403,7 @@
           <param name="outline_grow">
             <animated type="real">
               <waypoint time="0s" before="clamped" after="clamped">
-                <real guid="52312534688070FBAA70135DD0246AAE" value="1.0000000000"/>
+                <real value="1.0000000000"/>
               </waypoint>
             </animated>
           </param>
@@ -469,10 +471,20 @@
             </color>
           </param>
           <param name="origin">
-            <vector>
-              <x>0.8003394604</x>
-              <y>1.5728980303</y>
-            </vector>
+            <animated type="vector">
+              <waypoint time="0s" before="clamped" after="clamped">
+                <vector guid="2DF5746C586CCB3F942DE5AC9004EDD8">
+                  <x>0.8003394604</x>
+                  <y>1.5728980303</y>
+                </vector>
+              </waypoint>
+              <waypoint time="1s" before="clamped" after="clamped">
+                <vector guid="77A38951FF00E8F2D2ACDE1645632218">
+                  <x>-1.9112805128</x>
+                  <y>1.3152185678</y>
+                </vector>
+              </waypoint>
+            </animated>
           </param>
           <param name="invert">
             <bool value="false"/>
@@ -653,18 +665,32 @@
       </canvas>
     </param>
     <param name="time_dilation">
-      <real value="1.0000000000"/>
+      <animated type="real">
+        <waypoint time="0s" before="clamped" after="clamped">
+          <real value="3.0000000000"/>
+        </waypoint>
+        <waypoint time="1s" before="clamped" after="clamped">
+          <real value="1.0000000000"/>
+        </waypoint>
+      </animated>
     </param>
     <param name="time_offset">
-      <time value="0s"/>
+      <animated type="time">
+        <waypoint time="0s" before="clamped" after="clamped">
+          <time value="0s"/>
+        </waypoint>
+        <waypoint time="1s" before="clamped" after="clamped">
+          <time guid="F8A04A8FEDFCEDC9D9FF59910A5E3F43" value="0.41666666s"/>
+        </waypoint>
+      </animated>
     </param>
     <param name="children_lock">
-      <bool value="false"/>
+      <bool guid="1AEF2170FF45231F46EBA8A9BFFAC9A5" value="true"/>
     </param>
     <param name="outline_grow">
       <animated type="real">
         <waypoint time="0s" before="clamped" after="clamped">
-          <real guid="8BACE9095AA61FC69BAE75801416C81E" value="1.0000000000"/>
+          <real value="1.0000000000"/>
         </waypoint>
       </animated>
     </param>
