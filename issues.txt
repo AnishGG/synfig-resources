@@ -19,4 +19,6 @@ Documentation: https://www.tablesgenerator.com/text_tables
 TCB values for inserted waypoints need to be determined: Improvement:- For now average of tcb is taken
     -> To find subsection of bezier: https://math.stackexchange.com/questions/317806/equation-for-subsection-of-bezier-curve
 [Later, Not a need now]Make a wrapper for finding vector at time t for waypoint such that, if not animated: make it animated inside that first function itselves
-[Later] Make class layer
+[Later] Make class layer-> https://dev.to/codemouse92/dead-simple-python-project-structure-and-imports-38c6 : folder name: common/
+Use winding instead of masks
+Make class for parameters and canvas
