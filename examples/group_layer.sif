@@ -52,7 +52,7 @@
               </vector>
             </waypoint>
             <waypoint time="2.08333325s" before="clamped" after="clamped">
-              <vector guid="915D9B048C74B24975068FFBF4B6BC9B">
+              <vector>
                 <x>1.6666666269</x>
                 <y>0.0000000000</y>
               </vector>
@@ -70,7 +70,7 @@
           <angle value="0.000000"/>
         </skew_angle>
         <scale>
-          <vector guid="1FD525DAF2E993950CD6468472C5FA3D">
+          <vector>
             <x>1.6666666269</x>
             <y>0.8333333135</y>
           </vector>
@@ -420,38 +420,6 @@
             <real value="0.0000000000"/>
           </param>
         </layer>
-        <layer type="simple_circle" active="true" exclude_from_rendering="false" version="0.1">
-          <param name="z_depth">
-            <real value="0.0000000000"/>
-          </param>
-          <param name="amount">
-            <real value="1.0000000000"/>
-          </param>
-          <param name="blend_method">
-            <integer value="0" static="true"/>
-          </param>
-          <param name="color">
-            <color>
-              <r>0.259091</r>
-              <g>0.103636</g>
-              <b>0.018182</b>
-              <a>1.000000</a>
-            </color>
-          </param>
-          <param name="center">
-            <animated type="vector">
-              <waypoint time="0s" before="clamped" after="clamped">
-                <vector>
-                  <x>1.0750976801</x>
-                  <y>-0.0494470224</y>
-                </vector>
-              </waypoint>
-            </animated>
-          </param>
-          <param name="radius">
-            <real value="0.5000000000"/>
-          </param>
-        </layer>
         <layer type="outline" active="true" exclude_from_rendering="false" version="0.2">
           <param name="z_depth">
             <real value="0.0000000000"/>
@@ -473,13 +441,13 @@
           <param name="origin">
             <animated type="vector">
               <waypoint time="0s" before="clamped" after="clamped">
-                <vector guid="2DF5746C586CCB3F942DE5AC9004EDD8">
+                <vector>
                   <x>0.8003394604</x>
                   <y>1.5728980303</y>
                 </vector>
               </waypoint>
               <waypoint time="1s" before="clamped" after="clamped">
-                <vector guid="77A38951FF00E8F2D2ACDE1645632218">
+                <vector>
                   <x>-1.9112805128</x>
                   <y>1.3152185678</y>
                 </vector>
@@ -662,6 +630,38 @@
             <bool value="true"/>
           </param>
         </layer>
+        <layer type="simple_circle" active="true" exclude_from_rendering="false" version="0.1">
+          <param name="z_depth">
+            <real value="0.0000000000"/>
+          </param>
+          <param name="amount">
+            <real value="1.0000000000"/>
+          </param>
+          <param name="blend_method">
+            <integer value="0" static="true"/>
+          </param>
+          <param name="color">
+            <color>
+              <r>0.259091</r>
+              <g>0.103636</g>
+              <b>0.018182</b>
+              <a>1.000000</a>
+            </color>
+          </param>
+          <param name="center">
+            <animated type="vector">
+              <waypoint time="0s" before="clamped" after="clamped">
+                <vector>
+                  <x>1.0750976801</x>
+                  <y>-0.0494470224</y>
+                </vector>
+              </waypoint>
+            </animated>
+          </param>
+          <param name="radius">
+            <real value="0.5000000000"/>
+          </param>
+        </layer>
       </canvas>
     </param>
     <param name="time_dilation">
@@ -680,12 +680,12 @@
           <time value="0s"/>
         </waypoint>
         <waypoint time="1s" before="clamped" after="clamped">
-          <time guid="F8A04A8FEDFCEDC9D9FF59910A5E3F43" value="0.41666666s"/>
+          <time value="0.41666666s"/>
         </waypoint>
       </animated>
     </param>
     <param name="children_lock">
-      <bool guid="1AEF2170FF45231F46EBA8A9BFFAC9A5" value="true"/>
+      <bool value="true"/>
     </param>
     <param name="outline_grow">
       <animated type="real">

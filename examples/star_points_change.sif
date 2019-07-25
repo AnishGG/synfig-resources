@@ -29,9 +29,9 @@
     </param>
     <param name="color">
       <color>
-        <r>1.000000</r>
-        <g>1.000000</g>
-        <b>1.000000</b>
+        <r>0.846462</r>
+        <g>0.007772</g>
+        <b>0.007772</b>
         <a>1.000000</a>
       </color>
     </param>
@@ -68,13 +68,13 @@
     <param name="points">
       <animated type="integer">
         <waypoint time="0s" before="clamped" after="clamped">
-          <integer guid="EE5329FE33D13DA2C602DCF62C346CBF" value="5"/>
+          <integer value="5"/>
         </waypoint>
         <waypoint time="1s" before="clamped" after="clamped">
-          <integer guid="2D0988F80391D6B44C4A265096482ECE" value="10"/>
+          <integer value="10"/>
         </waypoint>
         <waypoint time="2s" before="clamped" after="clamped">
-          <integer guid="835CF391383E1CC556EC3F65D92AB7B1" value="15"/>
+          <integer value="15"/>
         </waypoint>
       </animated>
     </param>

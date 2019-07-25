@@ -23,3 +23,4 @@ TCB values for inserted waypoints need to be determined: Improvement:- For now a
 Use winding instead of masks
 Make class for parameters and canvas
 Add skew to group layers
+add_offset() needs to use <add><lhs><rhs><scalar> in order to work properly along with the prevalent scalar's already

@@ -28,9 +28,9 @@
     </param>
     <param name="color">
       <color>
-        <r>1.000000</r>
-        <g>1.000000</g>
-        <b>1.000000</b>
+        <r>0.879201</r>
+        <g>0.007638</g>
+        <b>0.007638</b>
         <a>1.000000</a>
       </color>
     </param>
@@ -160,13 +160,13 @@
                   <bool value="true"/>
                 </waypoint>
                 <waypoint time="0.58333331s" before="clamped" after="clamped">
-                  <bool guid="8F9DE4F5ECDCDB502D90C3028F818337" value="true"/>
+                  <bool value="true"/>
                 </waypoint>
                 <waypoint time="1s" before="clamped" after="clamped">
                   <bool value="false"/>
                 </waypoint>
                 <waypoint time="1.41666663s" before="clamped" after="clamped">
-                  <bool guid="C411921EA51918622E89F5EF1EEA930B" value="false"/>
+                  <bool value="false"/>
                 </waypoint>
                 <waypoint time="2s" before="clamped" after="clamped">
                   <bool value="true"/>
