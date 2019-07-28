@@ -60,20 +60,10 @@
       </color>
     </param>
     <param name="origin">
-      <blinecalcvertex type="vector">
-        <bline>
-          <bline type="bline_point" loop="false"/>
-        </bline>
-        <loop>
-          <bool value="false"/>
-        </loop>
-        <amount>
-          <real value="0.0000000000"/>
-        </amount>
-        <homogeneous>
-          <bool value="true"/>
-        </homogeneous>
-      </blinecalcvertex>
+      <vector>
+        <x>0.0000000000</x>
+        <y>0.0000000000</y>
+      </vector>
     </param>
     <param name="invert">
       <bool value="false"/>
