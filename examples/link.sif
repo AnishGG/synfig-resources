@@ -57,7 +57,7 @@
     </param>
     <param name="canvas">
       <canvas>
-        <layer type="star" active="true" exclude_from_rendering="false" version="0.1">
+        <layer type="star" active="false" exclude_from_rendering="false" version="0.1">
           <param name="z_depth">
             <real value="0.0000000000"/>
           </param>
