@@ -21,3 +21,5 @@ TCB values for inserted waypoints need to be determined: Improvement:- For now a
 [Later, Not a need now]Make a wrapper for finding vector at time t for waypoint such that, if not animated: make it animated inside that first function itselves
 Use winding instead of masks
 insert_waypoint_at_frame: needs improvement
+
+linear convert method not working with radius of simple circle
