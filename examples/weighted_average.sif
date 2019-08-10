@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<canvas version="1.0" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="1f" bgcolor="0.500000 0.500000 0.500000 1.000000">
+<canvas version="1.0" width="480" height="270" xres="2834.645752" yres="2834.645752" view-box="-4.000000 2.250000 4.000000 -2.250000" antialias="1" fps="24.000" begin-time="0f" end-time="5s" bgcolor="0.500000 0.500000 0.500000 1.000000">
   <name>Synfig Animation 1</name>
   <meta name="background_first_color" content="0.880000 0.880000 0.880000"/>
   <meta name="background_rendering" content="1"/>
@@ -30,7 +30,7 @@
     <param name="origin">
       <weighted_average type="weighted_vector">
         <entry>
-          <weighted_vector guid="9D493E6096BA2E51CF710376CFD40C3A">
+          <weighted_vector>
             <weight>
               <real value="0.0000000000"/>
             </weight>
@@ -80,7 +80,7 @@
       </composite>
     </param>
     <param name="canvas">
-      <canvas>
+      <canvas end-time="1f">
         <layer type="circle" active="true" exclude_from_rendering="false" version="0.2">
           <param name="z_depth">
             <real value="0.0000000000"/>
